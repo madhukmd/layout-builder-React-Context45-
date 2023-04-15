@@ -1,0 +1,160 @@
+/* Write your CSS here */
+.left-nav-container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: #e2e8f0;
+  height: 100%;
+  padding: 30px;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .left-nav-container {
+    width: 100%;
+    margin-top: 2px;
+    align-items: center;
+  }
+}
+
+.left-nav-list {
+  padding-left: 0;
+  list-style: none;
+}
+@media screen and (max-width: 768px) {
+  .left-nav-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+
+.heading-left-nav {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 20px;
+  font-weight: 600;
+}
+.left-nav-list li {
+  font-family: 'Roboto';
+  font-size: 25px;
+  color: #475569;
+  margin-bottom: 10px;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .left-nav-list li {
+    font-size: 20px;
+    margin-right: 10px;
+  }
+}
+
+.body-container {
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .body-container {
+    flex-direction: row;
+    justify-content: space-between;
+    height: 450px;
+    margin-top: 8px;
+    margin-bottom: 10px;
+  }
+}
+
+/* * {
+  border: 1px solid red;
+} */
+
+.content-container {
+  display: flex;
+  flex-direction: column;
+  /* flex-grow: 1; */
+  background-color: #f1f5f9;
+  /* height: 100%; */
+  padding: 30px;
+  margin-left: 2px;
+  margin-right: 2px;
+}
+
+@media screen and (max-width: 768px) {
+  .content-container {
+    margin-top: 5px;
+    margin-bottom: 5px;
+  }
+}
+
+.content-heading {
+  font-family: 'Roboto';
+  font-size: 20px;
+  color: #475569;
+}
+
+.right-nav-container {
+  display: flex;
+  flex-direction: column;
+  width: 25%;
+  background-color: #e2e8f0;
+  height: 100%;
+  padding: 30px;
+  flex-shrink: 0;
+}
+
+@media screen and (max-width: 768px) {
+  .right-nav-container {
+    width: 100%;
+    margin-bottom: 2px;
+  }
+}
+
+.heading-right-nav {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 20px;
+  font-weight: 600;
+}
+.box-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0;
+}
+.box-container p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #475569;
+  font-family: 'Roboto';
+  font-size: 20px;
+  height: 150px;
+  width: 100%;
+  border: 1px solid #64748b;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  .box-container {
+    flex-direction: row;
+    justify-content: center;
+  }
+  .box-container p {
+    width: 48%;
+    margin: 4px;
+  }
+}
+
+.content-des {
+  font-family: 'Roboto';
+  color: #475569;
+  font-size: 24px;
+  margin: 0px;
+}
+@media screen and (max-width: 768px) {
+  .content-des {
+    font-size: 19px;
+  }
+}
